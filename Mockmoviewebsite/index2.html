@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Movie Checkout</title>
+  <link rel="stylesheet" type="text/css" href="css/main2.css">
+</head>
+<body>
+  <header>
+    <h1>Checkout</h1>
+  </header>
+
+  <main>
+    <section class="booking-details">
+      <h2>Booking Details</h2>
+      <form>
+        <label for="movie">Movie:</label>
+        <select id="movie" name="movie">
+          <option value="movie1">GOTG3</option>
+          <option value="movie2">FAST X</option>
+          <option value="movie1">John Wick 4</option>
+          <option value="movie2">Little Mermaid</option>
+          <option value="movie2">Super Mario Bros: The Movie</option>
+        
+        </select>
+
+        <label for="showtime">Showtime:</label>
+        <select id="showtime" name="showtime">
+          <option value="morning">7:00am</option>
+<option value="morning">7:30am</option>
+<option value="morning">8:00am</option>
+<option value="morning">8:30am</option>
+<option value="morning">9:00am</option>
+<option value="morning">9:30am</option>
+<option value="morning">10:30am</option>
+<option value="morning">11:00am</option>
+          <option value="morning">11:30am</option>
+          <option value="afternoon">12:00pm</option>
+          <option value="afternoon">12:30pm</option>
+          <option value="afternoon">1:00pm</option>
+          <option value="afternoon">1:30pm</option>
+          <option value="afternoon">2:00pm</option>
+          <option value="afternoon">2:30pm</option>
+          <option value="afternoon">3:00pm</option>
+          <option value="afternoon">3:30pm</option>
+          <option value="afternoon">4:00pm</option>
+          <option value="afternoon">4:30pm</option>
+          <option value="afternoon">5:00pm</option>
+          <option value="afternoon">5:30pm</option>
+          <option value="afternoon">6:30pm</option>
+          <option value="afternoon">7:00pm</option>
+          <option value="evening">7:30pm</option>
+          <option value="afternoon">8:00pm</option>
+          <option value="evening">8:30pm</option>
+          <option value="afternoon">9:30pm</option>
+          <option value="evening">10:00pm</option>
+          <option value="afternoon">10:30pm</option>
+          <option value="evening">11:00pm</option>
+          <option value="afternoon">11:30pm</option>
+        
+        </select>
+
+        <label for="seats">Number of Seats:</label>
+        <input type="number" id="seats" name="seats" min="1" max="10" value="1">
+
+        <button type="submit">Proceed to Payment</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <ul class="social-icons">
+        <li><a href="https://www.facebook.com/cinemark/" target="_blank"><i>facebook</i></a></li>
+        <li><a href="https://www.instagram.com/cinemark/" target="_blank">instagram</a></li>
+      </ul>
+      <p>&copy; 2023 Cinemark. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
